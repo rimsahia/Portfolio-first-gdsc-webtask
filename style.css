@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@400;900&display=swap');
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+     font-family: 'Roboto', sans-serif;
+}
+
+header,.hero{
+    color: antiquewhite;
+    background-color: rgb(30, 30, 30);
+    /* display: flex;
+    justify-content: center; */
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    max-width: 80%;
+    margin: auto;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 35%;
+    padding: 0;
+    font-size: 1.25rem;
+}
+.nav--link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.hero--title{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.hero .container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.hero__image-container{
+    width: 45%;
+}
+.hero img{
+    width: 75%;
+    margin-bottom: -2rem;
+    border: 5px solid whitesmoke;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
+}
+.container{
+    padding-top: 2.25rem;
+    padding-bottom: 1rem;
+}
+.hero--paragraph{
+    padding-top: 5px;
+    line-height: 1.25rem;
+}
+ul.hero--social-media{
+    display: flex;
+    list-style: none;
+    margin-block: 1.6rem;
+    padding: 0;
+}
+.social-media--item{
+    margin-right: 1rem;
+}
+.social-media--link{
+    color: whitesmoke;
+}
+.social-media--link:hover{
+    color: blueviolet;
+    font-style: oblique;
+    text-decoration: none;
+}
+.artist-quote{
+    text-align: end;
+    font-family: 'Playfair Display', serif;
+}
+.bio{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+.about-me{
+    width: 60%;
+}
+.bio .title{
+    border-left: 4px solid purple;
+    padding-left: 5px;
+}
+.about-me p{
+    margin-top: 1.75rem;
+    line-height: 1.5rem;
+}
+.about-me button{
+    color: whitesmoke;
+    background-color: rgb(255, 54, 54);
+    padding: .5rem 1rem;
+    letter-spacing: 1.2px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 1.5rem;
+}
+.about-me button:hover{
+    background-color: whitesmoke;
+    color: rgb(255, 54, 54);
+    font-weight: 900;
+    cursor: pointer;
+}
+.overview .content{
+    margin-top: 1.75rem;
+    line-height: 1.5rem;
+}
+.overview .content-element+.content-element{
+    margin-top: .65rem;
+}
+.overview .content-element--name{
+    color: rgb(129, 129, 129);
+}
+.overview a{
+    text-decoration: none;
+    color: black;
+}
+.overview .status{
+    color: rgb(2, 169, 2);
+}
+#projects{
+    margin-top: 1.6rem;
+    padding-top: 1.8rem;
+    border-top: .5px solid black;
+}
+#projects .title{
+    text-align: center;
+}
+.boxes{
+    display:flex;
+    max-width: 100%;
+    gap: 5%;
+    flex-wrap: wrap;
+    margin-top: 1.8rem;
+}
+.boxes--element{
+    width: 30%;
+    border: .5px solid rgb(163, 163, 163);
+    border-radius: 3px;
+    padding: 0.3rem;
+}
+.boxes img{
+    width: 100%;
+    height: 60%;
+}
+.boxes--element_text{
+    height: fit-content;
+}
+.boxes--element .boxes--element_title{
+    color:purple;
+}
+.boxes--element p{
+    margin-top: .3rem;
+    line-height: 1.35rem;
+}
+.boxes--element a{
+    text-align: end;
+    
+}
+
