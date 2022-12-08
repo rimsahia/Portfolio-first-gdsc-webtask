@@ -36,6 +36,10 @@ nav{
     text-decoration: none;
     color: whitesmoke;
 }
+.nav--link:hover{
+    color: purple;
+    font-weight: 900;
+}
 .container{
     max-width: 80%;
     margin: auto;
@@ -148,6 +152,7 @@ ul.hero--social-media{
     display:flex;
     max-width: 100%;
     gap: 5%;
+    row-gap: 2.6rem;
     flex-wrap: wrap;
     margin-top: 1.8rem;
 }
@@ -156,13 +161,16 @@ ul.hero--social-media{
     border: .5px solid rgb(163, 163, 163);
     border-radius: 3px;
     padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
 }
 .boxes img{
     width: 100%;
-    height: 60%;
+    height: 240px;
 }
 .boxes--element_text{
     height: fit-content;
+    margin-top: .4rem;
 }
 .boxes--element .boxes--element_title{
     color:purple;
@@ -172,7 +180,15 @@ ul.hero--social-media{
     line-height: 1.35rem;
 }
 .boxes--element a{
-    text-align: end;
-    
+    align-self: flex-end;
+    margin-top: .8rem;
+    margin-right: .3rem;
+    color: purple;
+    margin-bottom: .4rem;
+}
+.boxes--element a:hover{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color:rgb(163, 163, 163);
 }
 
